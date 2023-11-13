@@ -7,7 +7,7 @@ import Antd from 'ant-design-vue';
 import * as Icons from '@ant-design/icons-vue';
 // import 'ant-design-vue/dist/antd.css';
 
-const app = createApp(App);
+const app = createApp(App); 
 app.use(Antd).use(store).use(router).mount('#app');
 
 // 全局使用图标
